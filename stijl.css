@@ -98,6 +98,8 @@ h2:nth-child(2) {
 .sidemenu a {
   margin-top: 3rem;
   font-size: 1.5rem;
+  transition-property: all;
+  transition-duration: .5s;
 }
 .zichtbaarmenu {
   width: 25vw;
@@ -201,6 +203,9 @@ a {
 }
 .wolk:hover {
   top: -4rem;
+}
+.sidemenu a:hover {
+  color:#1E2841;
 }
 @keyframes windy {
   0% {
